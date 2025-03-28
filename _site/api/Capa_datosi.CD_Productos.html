@@ -1,0 +1,634 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class CD_Productos
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class CD_Productos
+   ">
+    <meta name="generator" content="docfx 2.59.4.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="Capa_datosi.CD_Productos">
+  
+  
+  <h1 id="Capa_datosi_CD_Productos" data-uid="Capa_datosi.CD_Productos" class="text-break">Class CD_Productos
+  </h1>
+  <div class="markdown level0 summary"><p>Carga todos los productos de la base de datos.</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><span class="xref">CD_Productos</span></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <span class="xref">System.Object.ToString()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetHashCode()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetType()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.MemberwiseClone()</span>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="Capa_datosi.html">Capa_datosi</a></h6>
+  <h6><strong>Assembly</strong>: Capa_datosi.dll</h6>
+  <h5 id="Capa_datosi_CD_Productos_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class CD_Productos</code></pre>
+  </div>
+  <h3 id="methods">Methods
+  </h3>
+  
+  
+  <a id="Capa_datosi_CD_Productos_buscar_producto_" data-uid="Capa_datosi.CD_Productos.buscar_producto*"></a>
+  <h4 id="Capa_datosi_CD_Productos_buscar_producto_Capa_Entidad_CE_Productos_" data-uid="Capa_datosi.CD_Productos.buscar_producto(Capa_Entidad.CE_Productos)">buscar_producto(CE_Productos)</h4>
+  <div class="markdown level1 summary"><p>Método para buscar productos en la base de datos por su nombre.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public DataTable buscar_producto(CE_Productos e_productos)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Capa_Entidad.CE_Productos</span></td>
+        <td><span class="parametername">e_productos</span></td>
+        <td><p>Objeto que contiene la información del producto, específicamente su nombre,
+que se utilizará como criterio de búsqueda.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Data.DataTable</span></td>
+        <td><p>Un DataTable que contiene los resultados de la búsqueda, incluyendo:</p>
+<ul>
+<li>Nombre del producto.</li>
+<li>ID del inventario asociado.</li>
+</ul>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Capa_datosi_CD_Productos_buscar_producto_" data-uid="Capa_datosi.CD_Productos.buscar_producto*"></a>
+  <h4 id="Capa_datosi_CD_Productos_buscar_producto_Capa_Entidad_CE_Productos_Capa_Entidad_CE_Inventarios_" data-uid="Capa_datosi.CD_Productos.buscar_producto(Capa_Entidad.CE_Productos,Capa_Entidad.CE_Inventarios)">buscar_producto(CE_Productos, CE_Inventarios)</h4>
+  <div class="markdown level1 summary"><p>Método para buscar productos en la base de datos por su nombre y proveedor.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public DataTable buscar_producto(CE_Productos e_productos, CE_Inventarios e_Inventarios)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Capa_Entidad.CE_Productos</span></td>
+        <td><span class="parametername">e_productos</span></td>
+        <td><p>Objeto que contiene el nombre del producto a buscar como criterio de búsqueda.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">Capa_Entidad.CE_Inventarios</span></td>
+        <td><span class="parametername">e_Inventarios</span></td>
+        <td><p>Objeto que contiene el ID del proveedor como filtro adicional.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Data.DataTable</span></td>
+        <td><p>Un DataTable que contiene los resultados de la búsqueda, incluyendo:</p>
+<ul>
+<li>Nombre del producto.</li>
+<li>ID del inventario asociado.</li>
+</ul>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Capa_datosi_CD_Productos_buscar_producto_solo_nombre_" data-uid="Capa_datosi.CD_Productos.buscar_producto_solo_nombre*"></a>
+  <h4 id="Capa_datosi_CD_Productos_buscar_producto_solo_nombre_Capa_Entidad_CE_Productos_" data-uid="Capa_datosi.CD_Productos.buscar_producto_solo_nombre(Capa_Entidad.CE_Productos)">buscar_producto_solo_nombre(CE_Productos)</h4>
+  <div class="markdown level1 summary"><p>Método para buscar productos en la base de datos por nombre.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public DataTable buscar_producto_solo_nombre(CE_Productos e_productos)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Capa_Entidad.CE_Productos</span></td>
+        <td><span class="parametername">e_productos</span></td>
+        <td><p>Objeto que contiene el nombre del producto que se va a buscar.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Data.DataTable</span></td>
+        <td><p>Un DataTable que contiene los resultados de la búsqueda con:</p>
+<ul>
+<li>Nombre del producto.</li>
+</ul>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Capa_datosi_CD_Productos_cargar_auditoria_" data-uid="Capa_datosi.CD_Productos.cargar_auditoria*"></a>
+  <h4 id="Capa_datosi_CD_Productos_cargar_auditoria" data-uid="Capa_datosi.CD_Productos.cargar_auditoria">cargar_auditoria()</h4>
+  <div class="markdown level1 summary"><p>Método para cargar los datos de auditoría de los productos.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public DataTable cargar_auditoria()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Data.DataTable</span></td>
+        <td><p>Un DataTable que contiene los datos de auditoría, incluyendo:</p>
+<ul>
+<li>ID del producto</li>
+<li>Fecha de creación</li>
+<li>Usuario que creó el producto</li>
+<li>Fecha de última actualización</li>
+<li>Usuario que actualizó el producto</li>
+</ul>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Capa_datosi_CD_Productos_CargarProductos_" data-uid="Capa_datosi.CD_Productos.CargarProductos*"></a>
+  <h4 id="Capa_datosi_CD_Productos_CargarProductos" data-uid="Capa_datosi.CD_Productos.CargarProductos">CargarProductos()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public DataTable CargarProductos()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Data.DataTable</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Capa_datosi_CD_Productos_DeleteProducto_" data-uid="Capa_datosi.CD_Productos.DeleteProducto*"></a>
+  <h4 id="Capa_datosi_CD_Productos_DeleteProducto_Capa_Entidad_CE_Productos_" data-uid="Capa_datosi.CD_Productos.DeleteProducto(Capa_Entidad.CE_Productos)">DeleteProducto(CE_Productos)</h4>
+  <div class="markdown level1 summary"><p>Método para eliminar un producto de la base de datos.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int DeleteProducto(CE_Productos ce_productos)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Capa_Entidad.CE_Productos</span></td>
+        <td><span class="parametername">ce_productos</span></td>
+        <td><p>Objeto que contiene la información del producto a eliminar,
+específicamente su ID.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><p>Un entero que representa el resultado de la operación:</p>
+<ul>
+<li>1 si se eliminó correctamente.</li>
+<li>0 si ocurrió un error.</li>
+</ul>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Capa_datosi_CD_Productos_filtro_producto_" data-uid="Capa_datosi.CD_Productos.filtro_producto*"></a>
+  <h4 id="Capa_datosi_CD_Productos_filtro_producto_Capa_Entidad_CE_Productos_" data-uid="Capa_datosi.CD_Productos.filtro_producto(Capa_Entidad.CE_Productos)">filtro_producto(CE_Productos)</h4>
+  <div class="markdown level1 summary"><p>Método para filtrar productos que no tienen registro en el inventario
+y cuyo nombre coincide parcialmente con el criterio de búsqueda.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public DataTable filtro_producto(CE_Productos e_Productos)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Capa_Entidad.CE_Productos</span></td>
+        <td><span class="parametername">e_Productos</span></td>
+        <td><p>Objeto que contiene el nombre del producto que se utilizará como filtro.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Data.DataTable</span></td>
+        <td><p>Un DataTable que contiene los resultados del filtro, incluyendo:</p>
+<ul>
+<li>Nombre del producto.</li>
+<li>ID del producto.</li>
+</ul>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Capa_datosi_CD_Productos_informacion_producto_" data-uid="Capa_datosi.CD_Productos.informacion_producto*"></a>
+  <h4 id="Capa_datosi_CD_Productos_informacion_producto_Capa_Entidad_CE_Productos_" data-uid="Capa_datosi.CD_Productos.informacion_producto(Capa_Entidad.CE_Productos)">informacion_producto(CE_Productos)</h4>
+  <div class="markdown level1 summary"><p>Método para obtener información detallada de un producto específico.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string[] informacion_producto(CE_Productos ent_productos)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Capa_Entidad.CE_Productos</span></td>
+        <td><span class="parametername">ent_productos</span></td>
+        <td><p>Objeto que contiene el nombre del producto como criterio de búsqueda.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span>[]</td>
+        <td><p>Un array de cadenas que contiene la información del producto, incluyendo:</p>
+<ul>
+<li>Nombre del producto.</li>
+<li>Marca.</li>
+<li>Descripción.</li>
+<li>Proveedor.</li>
+<li>Nombre de la garantía.</li>
+<li>Talla.</li>
+<li>Modelo.</li>
+<li>Precio unitario.</li>
+<li>Stock.</li>
+<li>ID del inventario.
+Si no se encuentra el producto, devuelve <code>null</code>.</li>
+</ul>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Capa_datosi_CD_Productos_InsertProductos_" data-uid="Capa_datosi.CD_Productos.InsertProductos*"></a>
+  <h4 id="Capa_datosi_CD_Productos_InsertProductos_Capa_Entidad_CE_Productos_" data-uid="Capa_datosi.CD_Productos.InsertProductos(Capa_Entidad.CE_Productos)">InsertProductos(CE_Productos)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int InsertProductos(CE_Productos eproductos)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Capa_Entidad.CE_Productos</span></td>
+        <td><span class="parametername">eproductos</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Capa_datosi_CD_Productos_Siguiente_ID_" data-uid="Capa_datosi.CD_Productos.Siguiente_ID*"></a>
+  <h4 id="Capa_datosi_CD_Productos_Siguiente_ID" data-uid="Capa_datosi.CD_Productos.Siguiente_ID">Siguiente_ID()</h4>
+  <div class="markdown level1 summary"><p>Método para calcular el siguiente ID disponible en la tabla de productos.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int Siguiente_ID()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><p>Un entero que representa el siguiente ID para registrar un nuevo producto.
+Si la tabla está vacía, devuelve 1.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Capa_datosi_CD_Productos_UpdateProducto_" data-uid="Capa_datosi.CD_Productos.UpdateProducto*"></a>
+  <h4 id="Capa_datosi_CD_Productos_UpdateProducto_Capa_Entidad_CE_Productos_" data-uid="Capa_datosi.CD_Productos.UpdateProducto(Capa_Entidad.CE_Productos)">UpdateProducto(CE_Productos)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int UpdateProducto(CE_Productos ce_productos)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Capa_Entidad.CE_Productos</span></td>
+        <td><span class="parametername">ce_productos</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

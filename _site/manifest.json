@@ -1,0 +1,392 @@
+{
+  "homepages": [],
+  "source_base_path": "C:/Users/geova/Source/Repos/MTPJirehProyecto/Capa_Entidad",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "Conceptual",
+      "source_relative_path": "api/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "api/index.html",
+          "hash": "ZcRFJgNhvhM6kAH28Vkb5TxxGPe7FlftmernEpHWKBw="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/intro.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/intro.html",
+          "hash": "yF4cM99miGSsrT64oV0kgkl56YkQylthgw5Gl1aJqzo="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "articles/toc.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/toc.html",
+          "hash": "BlPxk5mtl2kgfcZUgkEguqiSAR/EUyUTT4EdebwkQvs="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html",
+          "hash": "GGOovSab6ZFxRkwbTiKX/AxcXz9WU1qSZOSIhjRqq74="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Capa_Entidad.CE_CAI.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Capa_Entidad.CE_CAI.html",
+          "hash": "RSJ8+oC68+kSLuZa2brKDSq1o8hSlV9PByA93tHSKOk="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Capa_Entidad.CE_Cargo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Capa_Entidad.CE_Cargo.html",
+          "hash": "bR+NOnQSMn8D4+por60UWkW8UzJHfcuBLkiqTBe8o88="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Capa_Entidad.CE_Clientes.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Capa_Entidad.CE_Clientes.html",
+          "hash": "5fGTCB4JECSVdkaBRd2vrP/xBnBrTR5QRxw+sQo8Tew="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Capa_Entidad.CE_Detalle_Devolucion_Compras.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Capa_Entidad.CE_Detalle_Devolucion_Compras.html",
+          "hash": "OddoYqwa2SuZ2IaGQttD2MtbYz+IfUk8FN8ga9ZeYiU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Capa_Entidad.CE_Detalle_Devolucion_Ventas.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Capa_Entidad.CE_Detalle_Devolucion_Ventas.html",
+          "hash": "CBvB+WGhmgH6Igx5i6/LqsmHWA8yIyozKQABkIFDwJg="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Capa_Entidad.CE_DetallesCompras.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Capa_Entidad.CE_DetallesCompras.html",
+          "hash": "wP9ZTBLOvgpf+7t9gT1hfi+0XoeaDwY2qHqfrRiMRLY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Capa_Entidad.CE_Detalles_Ventas.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Capa_Entidad.CE_Detalles_Ventas.html",
+          "hash": "ECkzmZTdQVYMTAuVdenEaabkY1dZhSIN5EqixSAPhXI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Capa_Entidad.CE_EMPLEADOS.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Capa_Entidad.CE_EMPLEADOS.html",
+          "hash": "YDkDSfyIhzmNNqiAfCVXeaHMSLXlMeQuIoXqtP6OJ0k="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Capa_Entidad.CE_Encabezado_Devolucion_Compras.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Capa_Entidad.CE_Encabezado_Devolucion_Compras.html",
+          "hash": "ykYJgBAJmaOaJUyyTO1+NG2Q1NN75jfvOxKNvYnb/gs="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Capa_Entidad.CE_Encabezado_Devolucion_Ventas.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Capa_Entidad.CE_Encabezado_Devolucion_Ventas.html",
+          "hash": "AA41ENGLuTsF1KPCnFN5tbNWHQkYt/hoyNAC7QvTb/0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Capa_Entidad.CE_Encabezado_Ventas.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Capa_Entidad.CE_Encabezado_Ventas.html",
+          "hash": "njTS5NQnTy1qRzLcHm7h75DpodEPdkB6jRbXSczRcFM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Capa_Entidad.CE_EncabezadosCompras.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Capa_Entidad.CE_EncabezadosCompras.html",
+          "hash": "kI80YTTch2UecqYSmdYBJjz7cgYMFi7Gy9HGTk/0JgU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Capa_Entidad.CE_Estado_Compra.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Capa_Entidad.CE_Estado_Compra.html",
+          "hash": "IKCxo/ka5ysgCDm4KgcWXqLnATeG7P/o08YrtUIif+g="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Capa_Entidad.CE_Facturas.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Capa_Entidad.CE_Facturas.html",
+          "hash": "tnPsgo7Cat1u9FWuDZqi44H4VPRRhJ6wT1O06EPkAks="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Capa_Entidad.CE_Inventarios.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Capa_Entidad.CE_Inventarios.html",
+          "hash": "ScxcEN4tjootXv0BUFm21g7cbHvlw+B5kyEU4R/McPM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Capa_Entidad.CE_Productos.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Capa_Entidad.CE_Productos.html",
+          "hash": "brZpslVc+RAuXozQnmX7wME/DO+hjS2Evula+B8vqGE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Capa_Entidad.CE_Usuarios.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Capa_Entidad.CE_Usuarios.html",
+          "hash": "9ai80jAuZgk7Obi3G/uwR8E3oZh+k3USFZIfLh94Xk8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Capa_Entidad.CE_marcas.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Capa_Entidad.CE_marcas.html",
+          "hash": "fXVyzcugl8NoqUMm+mNr1emUtp1vpYVosRFlp7sArHQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Capa_Entidad.CE_metodos_pago.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Capa_Entidad.CE_metodos_pago.html",
+          "hash": "NuaA7gS2TCln+71EME+TMrT0RYA744vF0LZn9QUWWtU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Capa_Entidad.CE_proveedores.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Capa_Entidad.CE_proveedores.html",
+          "hash": "ehRxu5VeEewk67PRMzjxHJa/hYo9mzkOn1nbvdc+vJ0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Capa_Entidad.Class1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Capa_Entidad.Class1.html",
+          "hash": "6KaL7ROolAiPo87pzjs1Ms8kiDdL6GmgkPtTQZYkwic="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Capa_Entidad.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Capa_Entidad.html",
+          "hash": "ExufMWMtCWVwhkJeIrmvbYkOGNiHAYrttsAvmX2Wafs="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "obj/api/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/toc.html",
+          "hash": "pX0ioNrm+bJHn06ymTtXqLSYN81zMyWdZsblwgtJAok="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "toc.html",
+          "hash": "Oa9PuD4E1hvZnCkVjUgzNBX6S00Zo5YilamTERTZo54="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    }
+  ],
+  "incremental_info": [
+    {
+      "status": {
+        "can_incremental": false,
+        "details": "Disable incremental build by force rebuild option.",
+        "incrementalPhase": "build",
+        "total_file_count": 0,
+        "skipped_file_count": 0,
+        "full_build_reason_code": "ForceRebuild"
+      },
+      "processors": {
+        "ConceptualDocumentProcessor": {
+          "can_incremental": false,
+          "incrementalPhase": "build",
+          "total_file_count": 3,
+          "skipped_file_count": 0
+        },
+        "ManagedReferenceDocumentProcessor": {
+          "can_incremental": false,
+          "incrementalPhase": "build",
+          "total_file_count": 22,
+          "skipped_file_count": 0
+        },
+        "TocDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build",
+          "total_file_count": 0,
+          "skipped_file_count": 0
+        }
+      }
+    },
+    {
+      "status": {
+        "can_incremental": false,
+        "details": "Cannot support incremental post processing, the reason is: it's disabled.",
+        "incrementalPhase": "postProcessing",
+        "total_file_count": 0,
+        "skipped_file_count": 0
+      },
+      "processors": {}
+    }
+  ],
+  "version_info": {},
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}

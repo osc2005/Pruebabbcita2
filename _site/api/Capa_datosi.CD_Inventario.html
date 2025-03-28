@@ -1,0 +1,942 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class CD_Inventario
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class CD_Inventario
+   ">
+    <meta name="generator" content="docfx 2.59.4.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="Capa_datosi.CD_Inventario">
+  
+  
+  <h1 id="Capa_datosi_CD_Inventario" data-uid="Capa_datosi.CD_Inventario" class="text-break">Class CD_Inventario
+  </h1>
+  <div class="markdown level0 summary"><p>Clase que gestiona las operaciones relacionadas con el inventario, como la carga de inventarios y la obtención de datos específicos de un inventario.</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><span class="xref">CD_Inventario</span></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <span class="xref">System.Object.ToString()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetHashCode()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetType()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.MemberwiseClone()</span>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="Capa_datosi.html">Capa_datosi</a></h6>
+  <h6><strong>Assembly</strong>: Capa_datosi.dll</h6>
+  <h5 id="Capa_datosi_CD_Inventario_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class CD_Inventario</code></pre>
+  </div>
+  <h3 id="methods">Methods
+  </h3>
+  
+  
+  <a id="Capa_datosi_CD_Inventario_agregar_foto_" data-uid="Capa_datosi.CD_Inventario.agregar_foto*"></a>
+  <h4 id="Capa_datosi_CD_Inventario_agregar_foto_Capa_Entidad_CE_Inventarios_" data-uid="Capa_datosi.CD_Inventario.agregar_foto(Capa_Entidad.CE_Inventarios)">agregar_foto(CE_Inventarios)</h4>
+  <div class="markdown level1 summary"><p>Agrega una foto a un inventario específico en la base de datos.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int agregar_foto(CE_Inventarios ent_inventario)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Capa_Entidad.CE_Inventarios</span></td>
+        <td><span class="parametername">ent_inventario</span></td>
+        <td><p>Un objeto de tipo <code>CE_Inventarios</code> que contiene el ID del inventario y la foto a agregar.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><p>1 si la foto se agregó correctamente, 0 si ocurrió un error durante el proceso.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Capa_datosi_CD_Inventario_Cargar_Auditoria_" data-uid="Capa_datosi.CD_Inventario.Cargar_Auditoria*"></a>
+  <h4 id="Capa_datosi_CD_Inventario_Cargar_Auditoria" data-uid="Capa_datosi.CD_Inventario.Cargar_Auditoria">Cargar_Auditoria()</h4>
+  <div class="markdown level1 summary"><p>Carga la auditoría de los inventarios, mostrando información como el ID del inventario, 
+las fechas de creación y actualización, y los usuarios que realizaron esas acciones.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public DataTable Cargar_Auditoria()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Data.DataTable</span></td>
+        <td><p>Un objeto <code>DataTable</code> que contiene los datos de auditoría de los inventarios.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Capa_datosi_CD_Inventario_CargarInventarios_" data-uid="Capa_datosi.CD_Inventario.CargarInventarios*"></a>
+  <h4 id="Capa_datosi_CD_Inventario_CargarInventarios" data-uid="Capa_datosi.CD_Inventario.CargarInventarios">CargarInventarios()</h4>
+  <div class="markdown level1 summary"><p>Carga todos los inventarios de la base de datos, con detalles como el nombre del producto, la marca, el proveedor, la garantía, la talla, el modelo, el stock y el precio unitario.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public DataTable CargarInventarios()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Data.DataTable</span></td>
+        <td><p>Un objeto <code>DataTable</code> que contiene la lista de inventarios con los campos seleccionados.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Capa_datosi_CD_Inventario_datos_inventario_" data-uid="Capa_datosi.CD_Inventario.datos_inventario*"></a>
+  <h4 id="Capa_datosi_CD_Inventario_datos_inventario_Capa_Entidad_CE_Inventarios_" data-uid="Capa_datosi.CD_Inventario.datos_inventario(Capa_Entidad.CE_Inventarios)">datos_inventario(CE_Inventarios)</h4>
+  <div class="markdown level1 summary"><p>Obtiene los datos (idproducto, idmarca, idproveedor, idgarantia) de un inventario específico según su ID.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int[] datos_inventario(CE_Inventarios ent_inventario)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Capa_Entidad.CE_Inventarios</span></td>
+        <td><span class="parametername">ent_inventario</span></td>
+        <td><p>Un objeto de tipo <code>CE_Inventarios</code> que contiene el <code>idinventario</code> que se desea consultar.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span>[]</td>
+        <td><p>Un arreglo de enteros que contiene los datos del inventario: idproducto, idmarca, idproveedor y idgarantia.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Capa_datosi_CD_Inventario_DeleteInventario_" data-uid="Capa_datosi.CD_Inventario.DeleteInventario*"></a>
+  <h4 id="Capa_datosi_CD_Inventario_DeleteInventario_Capa_Entidad_CE_Inventarios_" data-uid="Capa_datosi.CD_Inventario.DeleteInventario(Capa_Entidad.CE_Inventarios)">DeleteInventario(CE_Inventarios)</h4>
+  <div class="markdown level1 summary"><p>Elimina un inventario de la base de datos utilizando su ID.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int DeleteInventario(CE_Inventarios ce_inventarios)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Capa_Entidad.CE_Inventarios</span></td>
+        <td><span class="parametername">ce_inventarios</span></td>
+        <td><p>Un objeto de tipo <code>CE_Inventarios</code> que contiene el ID del inventario a eliminar.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><p>El número de filas afectadas por la operación (1 si fue exitosa, 0 si ocurrió un error).</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Capa_datosi_CD_Inventario_devolver_productos_al_stock_xventas_" data-uid="Capa_datosi.CD_Inventario.devolver_productos_al_stock_xventas*"></a>
+  <h4 id="Capa_datosi_CD_Inventario_devolver_productos_al_stock_xventas_System_Int32_System_Int32_" data-uid="Capa_datosi.CD_Inventario.devolver_productos_al_stock_xventas(System.Int32,System.Int32)">devolver_productos_al_stock_xventas(Int32, Int32)</h4>
+  <div class="markdown level1 summary"><p>Actualiza el stock de productos devueltos desde las ventas.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int devolver_productos_al_stock_xventas(int iddevolucion, int idproducto)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">iddevolucion</span></td>
+        <td><p>ID de la devolución de la venta.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">idproducto</span></td>
+        <td><p>ID del producto a actualizar en el inventario.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><p>El número de filas afectadas por la actualización del stock (0 si ocurre un error).</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Capa_datosi_CD_Inventario_foto_" data-uid="Capa_datosi.CD_Inventario.foto*"></a>
+  <h4 id="Capa_datosi_CD_Inventario_foto_Capa_Entidad_CE_Inventarios_" data-uid="Capa_datosi.CD_Inventario.foto(Capa_Entidad.CE_Inventarios)">foto(CE_Inventarios)</h4>
+  <div class="markdown level1 summary"><p>Recupera la foto asociada a un inventario específico desde la base de datos.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public MemoryStream foto(CE_Inventarios ent_inv)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Capa_Entidad.CE_Inventarios</span></td>
+        <td><span class="parametername">ent_inv</span></td>
+        <td><p>Un objeto de tipo <code>CE_Inventarios</code> que contiene el ID del inventario.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.IO.MemoryStream</span></td>
+        <td><p>Un objeto <code>MemoryStream</code> que contiene la imagen de la foto del inventario, o <code>null</code> si no se encuentra foto.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Capa_datosi_CD_Inventario_fotoc_" data-uid="Capa_datosi.CD_Inventario.fotoc*"></a>
+  <h4 id="Capa_datosi_CD_Inventario_fotoc_Capa_Entidad_CE_Inventarios_" data-uid="Capa_datosi.CD_Inventario.fotoc(Capa_Entidad.CE_Inventarios)">fotoc(CE_Inventarios)</h4>
+  <div class="markdown level1 summary"><p>Obtiene la foto asociada a un inventario específico desde la base de datos en formato <code>MemoryStream</code>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public MemoryStream fotoc(CE_Inventarios ce_inventarios)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Capa_Entidad.CE_Inventarios</span></td>
+        <td><span class="parametername">ce_inventarios</span></td>
+        <td><p>Un objeto de tipo <code>CE_Inventarios</code> que contiene el <code>idinventario</code> del inventario del cual se desea obtener la foto.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.IO.MemoryStream</span></td>
+        <td><p>Un objeto <code>MemoryStream</code> que contiene la foto del inventario, o <code>null</code> si no se encuentra o si la foto no está disponible.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Capa_datosi_CD_Inventario_Info_proveedor_" data-uid="Capa_datosi.CD_Inventario.Info_proveedor*"></a>
+  <h4 id="Capa_datosi_CD_Inventario_Info_proveedor_Capa_Entidad_CE_Inventarios_" data-uid="Capa_datosi.CD_Inventario.Info_proveedor(Capa_Entidad.CE_Inventarios)">Info_proveedor(CE_Inventarios)</h4>
+  <div class="markdown level1 summary"><p>Recupera la información del proveedor asociado a un inventario específico.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string[] Info_proveedor(CE_Inventarios ent_inventario)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Capa_Entidad.CE_Inventarios</span></td>
+        <td><span class="parametername">ent_inventario</span></td>
+        <td><p>Objeto de tipo CE_Inventarios que contiene el idinventario para la consulta.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span>[]</td>
+        <td><p>Un arreglo de tipo string[] donde el primer índice contiene el idproveedor y el segundo índice contiene el nombre del proveedor.
+Si no se encuentra el proveedor, devuelve null.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Capa_datosi_CD_Inventario_InsertInventario_" data-uid="Capa_datosi.CD_Inventario.InsertInventario*"></a>
+  <h4 id="Capa_datosi_CD_Inventario_InsertInventario_Capa_Entidad_CE_Inventarios_" data-uid="Capa_datosi.CD_Inventario.InsertInventario(Capa_Entidad.CE_Inventarios)">InsertInventario(CE_Inventarios)</h4>
+  <div class="markdown level1 summary"><p>Inserta un nuevo registro en la tabla de inventarios en la base de datos.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int InsertInventario(CE_Inventarios ce_inventarios)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Capa_Entidad.CE_Inventarios</span></td>
+        <td><span class="parametername">ce_inventarios</span></td>
+        <td><p>Un objeto de tipo <code>CE_Inventarios</code> que contiene los datos del inventario a insertar.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><p>El número de filas afectadas (1 si la inserción fue exitosa, 0 si falló).</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Exception</span></td>
+        <td><p>Si ocurre un error al ejecutar la consulta SQL, se lanza una excepción.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Capa_datosi_CD_Inventario_recuperar_datos_" data-uid="Capa_datosi.CD_Inventario.recuperar_datos*"></a>
+  <h4 id="Capa_datosi_CD_Inventario_recuperar_datos_Capa_Entidad_CE_Inventarios_" data-uid="Capa_datosi.CD_Inventario.recuperar_datos(Capa_Entidad.CE_Inventarios)">recuperar_datos(CE_Inventarios)</h4>
+  <div class="markdown level1 summary"><p>Recupera el precio unitario y la descripción de un producto asociado a un inventario específico.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string[] recuperar_datos(CE_Inventarios ce_inventarios)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Capa_Entidad.CE_Inventarios</span></td>
+        <td><span class="parametername">ce_inventarios</span></td>
+        <td><p>Un objeto de tipo <code>CE_Inventarios</code> que contiene el ID del inventario.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span>[]</td>
+        <td><p>Un arreglo de tipo <code>string[]</code> donde el primer valor es el precio unitario y el segundo es la descripción del producto.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Capa_datosi_CD_Inventario_recuperar_idproducto_desde_inventario_" data-uid="Capa_datosi.CD_Inventario.recuperar_idproducto_desde_inventario*"></a>
+  <h4 id="Capa_datosi_CD_Inventario_recuperar_idproducto_desde_inventario_Capa_Entidad_CE_Inventarios_" data-uid="Capa_datosi.CD_Inventario.recuperar_idproducto_desde_inventario(Capa_Entidad.CE_Inventarios)">recuperar_idproducto_desde_inventario(CE_Inventarios)</h4>
+  <div class="markdown level1 summary"><p>Recupera el ID del producto asociado a un inventario específico.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int recuperar_idproducto_desde_inventario(CE_Inventarios ent_inventarios)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Capa_Entidad.CE_Inventarios</span></td>
+        <td><span class="parametername">ent_inventarios</span></td>
+        <td><p>Un objeto de tipo <code>CE_Inventarios</code> que contiene el ID del inventario.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><p>El ID del producto asociado al inventario, o 0 si no se encuentra ningún resultado.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Capa_datosi_CD_Inventario_recuperar_precio_desde_inventario_" data-uid="Capa_datosi.CD_Inventario.recuperar_precio_desde_inventario*"></a>
+  <h4 id="Capa_datosi_CD_Inventario_recuperar_precio_desde_inventario_Capa_Entidad_CE_Inventarios_" data-uid="Capa_datosi.CD_Inventario.recuperar_precio_desde_inventario(Capa_Entidad.CE_Inventarios)">recuperar_precio_desde_inventario(CE_Inventarios)</h4>
+  <div class="markdown level1 summary"><p>Recupera el precio unitario de un producto desde el inventario utilizando su ID de producto.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public decimal recuperar_precio_desde_inventario(CE_Inventarios ent_inventarios)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Capa_Entidad.CE_Inventarios</span></td>
+        <td><span class="parametername">ent_inventarios</span></td>
+        <td><p>Un objeto de tipo <code>CE_Inventarios</code> que contiene el ID del producto.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Decimal</span></td>
+        <td><p>El precio unitario del producto, o 0 si no se encuentra el producto en el inventario.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Capa_datosi_CD_Inventario_restar_inventario_" data-uid="Capa_datosi.CD_Inventario.restar_inventario*"></a>
+  <h4 id="Capa_datosi_CD_Inventario_restar_inventario_Capa_Entidad_CE_Inventarios_System_Int32_" data-uid="Capa_datosi.CD_Inventario.restar_inventario(Capa_Entidad.CE_Inventarios,System.Int32)">restar_inventario(CE_Inventarios, Int32)</h4>
+  <div class="markdown level1 summary"><p>Actualiza el stock de un inventario reduciendo la cantidad especificada.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int restar_inventario(CE_Inventarios cE_Inventarios, int cantidad)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Capa_Entidad.CE_Inventarios</span></td>
+        <td><span class="parametername">cE_Inventarios</span></td>
+        <td><p>Un objeto de tipo <code>CE_Inventarios</code> que contiene el ID del inventario.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">cantidad</span></td>
+        <td><p>La cantidad a restar del stock del inventario.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><p>Un valor entero que indica el resultado de la operación. Retorna 1 si se realizó la actualización correctamente, o 0 en caso de error.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Capa_datosi_CD_Inventario_restar_productos_del_stock_xcompras_" data-uid="Capa_datosi.CD_Inventario.restar_productos_del_stock_xcompras*"></a>
+  <h4 id="Capa_datosi_CD_Inventario_restar_productos_del_stock_xcompras_System_Int32_System_Int32_" data-uid="Capa_datosi.CD_Inventario.restar_productos_del_stock_xcompras(System.Int32,System.Int32)">restar_productos_del_stock_xcompras(Int32, Int32)</h4>
+  <div class="markdown level1 summary"><p>Actualiza el stock de productos después de una compra devolviendo los productos al inventario.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int restar_productos_del_stock_xcompras(int idcompra, int idproducto)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">idcompra</span></td>
+        <td><p>ID de la compra relacionada con los productos.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">idproducto</span></td>
+        <td><p>ID del producto que se actualizará en el inventario.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><p>El número de filas afectadas por la actualización del stock (0 si ocurre un error).</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Capa_datosi_CD_Inventario_Siguiente_ID_" data-uid="Capa_datosi.CD_Inventario.Siguiente_ID*"></a>
+  <h4 id="Capa_datosi_CD_Inventario_Siguiente_ID" data-uid="Capa_datosi.CD_Inventario.Siguiente_ID">Siguiente_ID()</h4>
+  <div class="markdown level1 summary"><p>Recupera el siguiente ID disponible para un nuevo inventario.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int Siguiente_ID()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><p>El siguiente ID disponible para un inventario, basado en el valor máximo actual del campo <code>idinventario</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Capa_datosi_CD_Inventario_stock_dashboard_" data-uid="Capa_datosi.CD_Inventario.stock_dashboard*"></a>
+  <h4 id="Capa_datosi_CD_Inventario_stock_dashboard" data-uid="Capa_datosi.CD_Inventario.stock_dashboard">stock_dashboard()</h4>
+  <div class="markdown level1 summary"><p>Recupera el número de productos que no tienen stock disponible (stock = 0).</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string stock_dashboard()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><p>El número de productos sin stock, o null si no se encuentran productos sin stock.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Capa_datosi_CD_Inventario_UpdateInventario_" data-uid="Capa_datosi.CD_Inventario.UpdateInventario*"></a>
+  <h4 id="Capa_datosi_CD_Inventario_UpdateInventario_Capa_Entidad_CE_Inventarios_" data-uid="Capa_datosi.CD_Inventario.UpdateInventario(Capa_Entidad.CE_Inventarios)">UpdateInventario(CE_Inventarios)</h4>
+  <div class="markdown level1 summary"><p>Actualiza la información de un inventario en la base de datos.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int UpdateInventario(CE_Inventarios ce_inventarios)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Capa_Entidad.CE_Inventarios</span></td>
+        <td><span class="parametername">ce_inventarios</span></td>
+        <td><p>Un objeto de tipo <code>CE_Inventarios</code> que contiene los datos a actualizar.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><p>El número de filas afectadas por la actualización (1 si fue exitosa, 0 si falló).</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Exception</span></td>
+        <td><p>Si ocurre un error durante la ejecución de la actualización, se lanza una excepción.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>
